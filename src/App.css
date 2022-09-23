@@ -1,0 +1,400 @@
+.TheBody {
+  background-color: #f3f2ef;
+}
+
+/* PAGINA LOGIN  */
+
+.loginLogoCol {
+  background-image: url(https://static-exp1.licdn.com/aero-v1/sc/h/dxf91zhqd2z6b0bwg85ktm5s4);
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-position: center left;
+}
+@media screen and (max-width: 768px) {
+  .loginLogoCol {
+    background-position: center;
+  }
+}
+
+.loginText {
+  color: #8f5849;
+  font-size: 5rem;
+  font-weight: 200;
+  line-height: 1.1;
+}
+@media screen and (max-width: 500px) {
+  .loginText {
+    color: #8f5849;
+    font-size: 3rem;
+    font-weight: 200;
+    line-height: 1.1;
+  }
+}
+
+.loginUser {
+  font-size: 1.5rem;
+  color: #0a66c2;
+  border: 1px solid #0a66c2;
+  border-radius: 50%;
+  height: 100px;
+  width: 100px !important;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+}
+.loginUser:hover {
+  color: #fff;
+  background-color: #0a66c2;
+  box-shadow: 0px 2px 10px #0a66c2;
+}
+
+/* --------------------------------------- */
+
+/* NAVBAR */
+
+.NavBarLogo {
+  color: #0077b5;
+  height: 41px;
+  width: 41px;
+}
+.NavBarAllLogo {
+  height: 25px;
+  width: 25px;
+}
+.NavBarLinkedin {
+  display: flex !important;
+  justify-content: space-around !important;
+  align-items: center !important;
+  background-color: white;
+  padding: 0;
+}
+.NavbarForm {
+  height: 40px !important;
+}
+.NavbarUser {
+  width: 25px;
+  height: 25px;
+  border-radius: 20px;
+}
+.dropdown-list {
+  list-style: none;
+}
+#navbarScrollingDropdown::after {
+  content: "" !important;
+}
+.dropdown-toggle::after {
+  content: "" !important;
+  border-top: 0 !important;
+}
+.nav-link {
+  display: flex;
+}
+.NavbarDiv {
+  display: flex !important;
+  justify-content: space-between;
+  align-items: center;
+}
+@media screen and (max-width: 700px) {
+  .NavBarSpan {
+    display: none;
+  }
+}
+@media screen and (max-width: 460px) {
+  .NavBarAllLogo {
+    width: 20px;
+    height: 20px;
+  }
+  .NavBarLogo {
+    width: 25px;
+    height: 25px;
+  }
+}
+.NavBarList {
+  color: #86888a;
+}
+.NavBarList:hover {
+  color: #313335;
+}
+.NavbarUserList {
+  width: 60px;
+  height: 60px;
+  margin-right: 6px;
+  border-radius: 30px;
+}
+.NavbarHover {
+  color: #86888a;
+}
+.NavbarHover:hover {
+  color: #313335 !important;
+}
+.CanvassDiv {
+  display: grid;
+  gap: 10px;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.canvassCardDiv {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #dddee0;
+  border-radius: 10px;
+  color: #86888a;
+}
+.canvassCardDiv:hover {
+  color: #313335;
+}
+.NavBarAllLogoCanvass {
+  height: 40px;
+  width: 40px;
+  color: #0077b5;
+}
+.canvassSmaller {
+  font-size: 12px;
+  color: #86888a;
+}
+
+/* ----------------------- */
+
+/* SEZIONE PROFILO  */
+
+.ProfilePrincipale {
+  width: 500px;
+  flex: none;
+}
+
+.ProfileSecondaria {
+  width: 250px;
+  flex: none;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  border-radius: 10px;
+}
+
+@media screen and (max-width: 765px) {
+  /*SOTTO 765PX*/
+  .ProfilePrincipale {
+    width: 100%;
+  }
+  .ProfileSecondaria {
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 1100px) {
+  .ProfilePrincipale {
+    width: 700px;
+  }
+  .ProfileSecondaria {
+    width: 350px;
+  }
+}
+@media screen and (min-width: 1500px) {
+  .ProfilePrincipale {
+    width: 900px;
+  }
+  .ProfileSecondaria {
+    width: 450px;
+  }
+}
+
+.CardProfile {
+  min-height: 50vh;
+  border: 1px solid gainsboro;
+  border-radius: 10px;
+  background-color: white;
+}
+
+.CardProfileImages {
+  background-image: linear-gradient(to right, #0077b5, #0068a0);
+  height: 150px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  padding: 1em;
+}
+.CardProfileCerchio {
+  border-radius: 50%;
+  height: 120px;
+  width: 120px;
+  position: relative;
+  left: 20px;
+  background-color: white;
+  top: 30px;
+  padding: 3px;
+}
+.CardProfileCerchioImg {
+  border-radius: 50%;
+  height: 100%;
+}
+
+.CardProfileText {
+  padding: 0px 20px 10px;
+}
+
+.CardProfileButton1,
+.CardProfileButton2,
+.CardProfileButton3 {
+  line-height: 1.2;
+  font-weight: 600;
+  border-radius: 20px;
+}
+
+.CardProfileButton1 {
+  background-color: #0a66c2 !important;
+}
+
+.CardProfileButton2 {
+  background-color: #ffffff !important;
+  color: #0077b5;
+  outline: 1px solid #0077b5;
+}
+.CardProfileButton2:hover {
+  border: 2px solid #0068a0 !important;
+  color: #0077b5 !important;
+  background-color: #0076b51f !important;
+}
+.CardProfileButton3 {
+  height: 35px;
+  width: 35px;
+  font-size: 0.7rem;
+  font-weight: bold;
+  border-radius: 50%;
+  border: 1px solid rgb(63, 63, 63);
+}
+
+.CardProfileDisp {
+  background-color: rgba(128, 128, 128, 0.221);
+  border-radius: 15px;
+  padding: 1em;
+  font-size: 0.8rem;
+}
+.CardProfilePencil {
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+.CardProfilePencil2 {
+  font-size: 1.8rem;
+  margin-right: 10px;
+  cursor: pointer;
+}
+.CardProfileImagesPencil {
+  color: #0077b5;
+}
+
+.CardProfileImagesPenciBi {
+  border-radius: 50%;
+  padding: 2px;
+}
+.CardAziendaButton {
+  border-radius: 15px;
+  padding: 3px 25px;
+}
+.CardAziendap {
+  color: #86888a;
+  font-size: 12px;
+  margin-left: 3px;
+}
+.CardCompetenze {
+  width: 90%;
+  margin: 0 auto;
+}
+.ColImgCompetenze {
+  min-height: 300px;
+}
+.CardCompetenzeImg {
+  border-radius: 50% !important;
+  min-width: 100%;
+  min-height: 50%;
+}
+.CardAziende {
+  border: 1px solid gainsboro;
+  border-radius: 10px;
+  background-color: white;
+}
+
+/* ---------------------- */
+
+/* HOME COMPONENT */
+
+.HomeComponent {
+  min-height: 100vh;
+}
+
+.HomeCardProfileCerchio {
+  border-radius: 50%;
+  height: 80px;
+  width: 80px;
+  padding: 2px;
+  position: relative;
+  top: 40px;
+  background-color: whitesmoke;
+}
+
+.HomeCardProfileCerchioImg {
+  height: 100%;
+  border-radius: 50%;
+}
+.PostUser {
+  width: 100%;
+  height: 100%;
+}
+.buttonPost {
+  margin-left: 10px;
+  width: 100%;
+  border-radius: 20px;
+  text-align: start;
+}
+.rigaIconePost {
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+}
+.CardPost {
+  border: 1px solid gainsboro;
+  border-radius: 10px;
+  max-height: 8em;
+  background-color: white;
+}
+.position-sticky {
+  position: sticky;
+  top: 80px;
+}
+.buttonDialogPost {
+  border: none;
+  border-radius: 20px;
+  height: 50%;
+  color: #313335;
+  margin-right: 10px;
+}
+.CardPostButton {
+  border-radius: 20px;
+}
+.cardPostImage {
+  width: 100%;
+  height: auto;
+}
+
+.CardProfiloHome {
+  border: 1px solid gainsboro;
+  border-radius: 10px;
+  background-color: white;
+}
+.borderBottom {
+  border-bottom: 1px solid gainsboro;
+}
+.CardHeaderPost:hover {
+  color: #0068a0 !important;
+}
+.ButtonDropDownNav {
+  padding: 0;
+  border-radius: 20px;
+}
+ul {
+  padding: 0;
+}
